@@ -2,7 +2,7 @@
 
 ![CVA_btns](design-system-btn.png)
 
-Powered by react, TypeScript, tailwind and CVA.
+Powered by React, TypeScript, Tailwind and CVA.
 
 ### Demo:
 

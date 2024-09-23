@@ -44,10 +44,10 @@ const buttonVariants = cva("font-semibold shadow-sm", {
   variants: {
     intent: {
       primary:
-        "bg-teal-700 text-white hover:bg-teal-800 active:bg-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700",
+        "bg-teal-700 text-white hover:bg-teal-800 active:bg-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-teal-700",
       secondary:
-        "bg-white text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 active:bg-gray-100",
-      soft: "bg-indigo-50 text-teal-700 hover:bg-teal-100 active:bg-teal-200",
+        "bg-white text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 active:bg-gray-100 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-gray-900",
+      soft: "bg-indigo-50 text-teal-700 hover:bg-teal-100 active:bg-teal-200 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-teal-700",
     },
     size: {
       xs: "text-xs",
@@ -112,7 +112,7 @@ const buttonVariants = cva("font-semibold shadow-sm", {
 
 /* BTN WRAPPER */
 function ButtonWrapper({ children }: { children: React.ReactNode }) {
-  return <div className="space-x-8">{children}</div>;
+  return <div className="space-x-8 ">{children}</div>;
 }
 
 /* ICON BTN */
