@@ -279,14 +279,14 @@ export default function Buttons() {
             {/* <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" /> */}
 
             {/* RENDERIZADO DEL MODO LARGO */}
-            {/*      <PrimaryButtons />
-      <SecondaryButtons />
-      <SoftButtons />
-      <ButtonsWithLeadingIcon />
-      <ButtonsWithTrailingIcon />
-      <RoundedPrimaryButtons />
-      <RoundedSecondaryButtons />
-      <CircularButtons /> */}
+            <PrimaryButtons />
+            <SecondaryButtons />
+            <SoftButtons />
+            <ButtonsWithLeadingIcon />
+            <ButtonsWithTrailingIcon />
+            <RoundedPrimaryButtons />
+            <RoundedSecondaryButtons />
+            <CircularButtons />
           </div>
         </div>
       </div>
